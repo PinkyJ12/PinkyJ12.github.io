@@ -3,16 +3,14 @@
     <div class="header__inner">
       <a class="header__logo" href="{{ '/' | relative_url }}">
         <div class="header__logo--container">
-          {% include logo.svg %}
+          
         </div>
       </a>
       <nav class="header__links">
         <div class="container header__links-wrapper">
-          {% for item in site.navigation %}
-            <a class="header__link" href="{{ item.link | relative_url }}" itemprop="url">
-              <span itemprop="name">{{ item.name }}</span>
-            </a>
-          {% endfor %}
+            <a class="header__link" href="{{ '/' | relative_url }}" itemprop="url"><span itemprop="name">Home</span></a>
+            <a class="header__link" href="{{ '/about' | relative_url }}" itemprop="url"><span itemprop="name">About</span></a>
+           
         </div>
       </nav>
       <div class="header__toggle">
