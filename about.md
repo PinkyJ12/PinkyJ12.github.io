@@ -4,10 +4,17 @@ title: About
 permalink: /about/
 ---
 
-Sleek is a modern Jekyll theme focused on speed performance & SEO best practices. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/) or simply read the guide on how to [get started](/getting-started)
+Hi! **Welcome** to my blog!
 
-You can find the source code for the Jekyll new theme at:
-[sleek](https://github.com/janczizikow/sleek)
+<img src="/assets/img/About_me.png" width="50%">
+Recently I have completed my Data Science bootcamp from Metis and now actively looking for Associate Data Scientist or Data Analyst positions.I am also involved in NLP Stanford study group and other tech Meetup groups. 
+In this bog, you will find some of my recent projects.
+Prior to this bootcamp, I have earned several certificates in Data Visualization,Python, Data Analysis and Machine Learning domain as well as worked on few projects too.
+During my previous work experience, I have worked as System Analyst, ERP Functional Consultant, generated dashboards and various adhoc reports.
 
-You can find the source code for Jekyll at
-[jekyll](https://github.com/jekyll/jekyll)
+
+This website is all about my journey of being Data Scientist from System Analyst.
+
+Pinky Johar
+
+
