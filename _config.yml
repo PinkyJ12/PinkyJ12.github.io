@@ -3,9 +3,7 @@
 title: Pinky Johar # your site title
 author: pinkyjohar # 
 description: > # Meta description of Homepage
-  #Write an awesome description for your new site here. You can edit this
-  #line in _config.yml. It will appear in your document head meta (for
-  #Google search results) and in your feed.xml site description.
+  
   Data Scientist/Data Analyst
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://pinkyjohar.com" # the base hostname & protocol for your site, e.g. http://example.com
@@ -47,7 +45,8 @@ hero_img: posts/craterLake.jpg # Main background image: use the path from /asset
 # BUILD SETTINGS
 markdown: kramdown
 highlighter: rouge # or pygments or null
- theme: jekyll-sleek # Uncomment if you're using the theme as a ruby gem
+encoding: UTF-8
+ #theme: jekyll-sleek # Uncomment if you're using the theme as a ruby gem
 exclude:
   - README.md
   - node_modules
