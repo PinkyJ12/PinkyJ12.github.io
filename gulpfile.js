@@ -199,8 +199,6 @@ gulp.task('img', function() {
       quality: 70,
       progressive: true,
       withMetadata: false,
-      withoutEnlargement: true,
-      skipOnEnlargement: false, // that option copy original file with/without renaming
       errorOnEnlargement: false,
     }))
     .pipe(imagemin())
