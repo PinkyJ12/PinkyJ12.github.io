@@ -201,7 +201,7 @@ gulp.task('img', function() {
       withMetadata: false,
       errorOnEnlargement: false,
     }))
-    #.pipe(imagemin())
+    .pipe(imagemin())
     .pipe(gulp.dest('assets/img/posts/'));
 });
 
