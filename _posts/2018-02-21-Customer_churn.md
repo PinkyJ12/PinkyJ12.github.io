@@ -1,6 +1,5 @@
 ---
 layout: post
-title: Building Customer Churn models for Business
 featured-img: churn
 ---
 
