@@ -4,8 +4,11 @@ title: Feature Scaling in Python with scikit-learn
 featured-img: featureScaling
 ---
 
-The 4 common methods of feature scaling that are implemented in scikit-learn are:
+## Importance of Feature Scaling
 
+While many algorithms (such as SVM, K-nearest neighbors, and logistic regression) require features to be normalized, intuitively we can think of Principle Component Analysis (PCA) as being a prime example of when normalization is important. In PCA we are interested in the components that maximize the variance. If one component (e.g. human height) varies less than another (e.g. weight) because of their respective scales (meters vs. kilos), PCA might determine that the direction of maximal variance more closely corresponds with the ‘weight’ axis, if those features are not scaled. As a change in height of one meter can be considered much more important than the change in weight of one kilogram, this is clearly incorrect.
+
+The 4 common methods of feature scaling that are implemented in scikit-learn are:
 * StandardScaler
 * MinMaxScaler
 * RobustScaler
