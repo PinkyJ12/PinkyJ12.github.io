@@ -25,8 +25,6 @@ I used 4-5 supervised models among which Logistic Regression and Random Forest w
 The data was downloaded from [IBM Sample Data Sets](https://www.ibm.com/communities/analytics/watson-analytics-blog/guide-to-sample-datasets/). Each row represents a customer, each column contains that customer’s attributes which I can categorised as Personal Info, Service Info and Billing Info:
 The raw data contains 7043 rows (customers) and 21 columns (features). The “Churn” column is our target.
 
-Figure 1(explaining variables of data)
-
 ### Tools Used: 
 Python, Jupyter notebook, Pandas, Flask ,  Tableau, AWS
 ### Packages 
@@ -81,8 +79,6 @@ points to be considered are:
 * Features such as tenure_group, Contract, PaperlessBilling, MonthlyCharges and InternetService appear to play an important role in customer churn.
 * There does not seem to be a relationship between gender and churn.
 * Customers in a month-to-month contract, with PaperlessBilling and are within 12 months tenure, are more likely to churn; On the other hand, customers with one or two year contract, with longer than 12 months tenure, that are not using PaperlessBilling, are less likely to churn.
-
-Source code that created this post can be found here. I would be pleased to receive feedback or questions on any of the above.
 
 #### Identify key metrics optimization
 
